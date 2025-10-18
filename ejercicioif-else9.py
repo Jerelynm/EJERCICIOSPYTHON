@@ -1,0 +1,13 @@
+nota = int(input("Ingresa la calificación (0-100): "))
+if 90 <= nota <= 100:
+    print("A")
+elif 80 <= nota < 90:
+    print("B")
+elif 70 <= nota < 80:
+    print("C")
+elif 60 <= nota < 70:
+    print("D")
+elif 0 <= nota < 60:
+    print("F")
+else:
+    print("Calificación inválida.")
